@@ -13,7 +13,6 @@
 - **Reusability:** In a larger dashboard, the card can accept real API data instead of mock data.
 - **Design System:** Common colors, spacing, and typography can be extracted into theme tokens for alignment with a shared design system.
 - **Potential Improvements (with more time):**
-  - Enhance accessibility (keyboard focus states, ARIA labels)
   - Add unit tests for the card component
   - Implement light animations for hover and state changes
   - Support theming and localization
@@ -30,7 +29,7 @@
 
 - Clone the repository:
   ```bash
-  git clone <repository-url>
+  git clone https://github.com/TheRealKrishna/Practice-Summary-Dashboard
   ```
 - Install dependencies:
   ```bash
