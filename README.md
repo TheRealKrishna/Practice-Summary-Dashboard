@@ -13,9 +13,9 @@
 - **Reusability:** In a larger dashboard, the card can accept real API data instead of mock data.
 - **Design System:** Common colors, spacing, and typography can be extracted into theme tokens for alignment with a shared design system.
 - **Potential Improvements (with more time):**
-  - Add unit tests for the card component
-  - Implement light animations for hover and state changes
-  - Support theming and localization
+  - Improve the overall UI design and visual polish
+  - Add simple animations, especially on first render and hover interactions
+  - Implement light and dark theme with a toggle button
 
 ## 3. Time Management
 
