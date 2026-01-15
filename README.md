@@ -2,11 +2,11 @@
 
 ## 1. Component & Styling Decisions
 
-- **Component Structure:** The UI is built around a main `PracticeSummaryCard` component, with smaller subcomponents (e.g., trend chart, page title) to keep responsibilities clear and code maintainable.
-- **Reusability:** The card is self-contained, making it easy to reuse across different pages or dashboards.
+- **Component Structure:** The UI is built around a main `PracticeSummaryCard` component, with smaller sub components (e.g. trend chart, page title) to keep responsibilities clear and code maintainable.
+- **Reusability:** The card is self-contained, making it easy to reuse across different pages or dashboards. I also separated utility functions (e.g. `getStatus`) for logic that can be shared.
 - **Styling:** Tailwind CSS was chosen for its utility-first approach, enabling consistent spacing, typography, and layout without extra CSS files.
-- **Visual Consistency:** A limited set of text sizes, colors, and spacing utilities were used for uniformity across all cards.
-- **Responsiveness:** Grid and flex utilities ensure the layout adapts well to both mobile and desktop screens.
+- **Visual Consistency:** A limited set of text sizes, colors, and spacing utilities were used for uniformity inside the card.
+- **Responsiveness:** flex box is used to ensure the layout adapts well to both mobile and desktop screens.
 
 ## 2. Scaling & Real-World Use
 
@@ -23,7 +23,7 @@
 - **Setup and project structure:** ~5 minutes
 - **Layout and component structure:** ~30 minutes
 - **Styling and visual polish:** ~20 minutes
-- **README and explanation:** ~10 minutes
+- **README and explanation:** ~15 minutes
 
 
 ## 4. How to Run the Project
